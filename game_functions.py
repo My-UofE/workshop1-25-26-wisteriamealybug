@@ -22,7 +22,7 @@ def process_guess(letter, board, word):
             changed = True
     
     if changed:
-        print(f"Well done! '{letter}' is in the word")
+        print(f"Well done!'{letter}' is in the word")
         return True
     print(f"Sorry, '{letter}' is not in the word")
     return False
